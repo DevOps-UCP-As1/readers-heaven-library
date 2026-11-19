@@ -65,6 +65,64 @@ button {
     gap: 20px;
     padding: 30px;
 }
+/* =========================================
+   MEMBER 5 — EVENTS PAGE
+
+.events-page .section {
+    padding: 40px 20px;
+}
+
+.events-page .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.events-page .card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #245b45;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.events-page .card h3 {
+    color: #245b45;
+    margin: 12px 0;
+}
+
+.events-page .tag {
+    color: #b48632;
+    font-weight: bold;
+}
+
+.events-page .notice {
+    background-color: #e8f2eb;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.events-page .button {
+    display: inline-block;
+    background-color: #245b45;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.events-page .button:hover {
+    background-color: #173f30;
+}
+
+@media (max-width: 768px) {
+    .events-page .section {
+        padding: 25px 15px;
+    }
+
+    .events-page .grid {
+        grid-template-columns: 1fr;
+    }
 
 .collections-section {
 
