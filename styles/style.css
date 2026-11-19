@@ -65,3 +65,39 @@ button {
     gap: 20px;
     padding: 30px;
 }
+
+.membership-section {
+    padding: 40px;
+}
+
+.membership-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.membership-table th {
+    background-color: #245b45;
+    color: white;
+    padding: 15px;
+}
+
+.membership-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.membership-table tr:hover {
+    background-color: #e8f2eb;
+}
+
+.membership-plan {
+    background-color: white;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.membership-plan h3 {
+    color: #245b45;
+}
